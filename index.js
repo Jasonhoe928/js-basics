@@ -16,6 +16,27 @@ console.log(pet);
 * Each value should be a String. 
 **/
 
+var firstName = "Jay";
+console.log(firstName);
+var lastName = "Hoe";
+console.log(lastName);
+var birthPlace = "Honolulu";
+console.log(birthPlace);
+var favoriteFood = "Japanese";
+console.log(favoriteFood);
+var bestMovie = "The Matrix";
+console.log(bestMovie);
+var favLoveSong = "Eyes On Me";
+console.log(bestMovie);
+var cuteAnimal = "Puppy";
+console.log(cuteAnimal);
+var favColor = "Blue";
+console.log(favColor);
+var favSneaker = "Vans";
+console.log(favColor);
+var coffeeShop = "Kissaten";
+console.log(coffeeShop);
+
 
 /**
 * #2
@@ -26,6 +47,26 @@ console.log(pet);
 * Each value should be a Number
 **/
 
+var favoriteNumber = 4;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2020;
+console.log(tokyoOlympics);
+var mariahCareyAge = 46;
+console.log(mariahCareyAge);
+var currentTemp = 68;
+console.log(currentTemp);
+var studentsInClass = 9;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 7;
+console.log(currentIphoneModel);
+var shoeSize = 10.5;
+console.log(shoeSize);
 
 /**
 * #3
@@ -36,6 +77,26 @@ console.log(pet);
 * Each value should be a Boolean
 **/
 
+var likesMcDonalds = false;
+console.log(likesMcDonalds);
+var watchedMrRobot = false;
+console.log(watchedMrRobot);
+var ranMarathon = false;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = true;
+console.log(lovesDonuts);
+var readHarryPotter = true;
+console.log(readHarryPotter);
+var sleptInClass = true;
+console.log(sleptInClass);
+var drinksCoffee = true;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = true;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = true;
+console.log(ownsRedShoes)
 
 /**
 * #4
@@ -46,12 +107,20 @@ console.log(pet);
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
-
+/* 
+Null represents a value of nothing, but at the same time is still something, because it holds a value of an empty container.  It is like a place holder.
+*/
 
 /**
 * #6
@@ -65,7 +134,19 @@ console.log(pet);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
-
+var plateLunch = ["teri beef", "bbq chicken", "kalbi", "roast pork", "loco moco"];
+console.log(plateLunch);
+var fruitBasket = ["apples", "oranges", "strawberries", "pineapples", "blueberries"];
+console.log(fruitBasket);
+var westCoast = ["California", "Oregon", "Washington"];
+console.log(westCoast);
+var lotteryResult = [103, 302, 23, 40942, 104049, 1994];
+console.log(lotteryResult);
+var duets = [["Kanye West", "JayZ"], ["Tiesto", "PVD"], ["30 Seconds To Mars", "Coldplay"]];
+console.log(duets);
+console.log(duets);
+var mixPlate = ["string", 9.5, true];
+console.log(mixPlate);
 
 /*7
 * Accessing Values in Arrays
@@ -76,8 +157,12 @@ What is the length of this array? Please print the length (a number) to the cons
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
-
-
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+console.log(partyList.length);
+partyList[0];
+console.log(partyList[0]);
+partyList[4];
+console.log(partyList[4]);
 
 /*
 * #8 
@@ -93,8 +178,12 @@ What is the index position of lemon bars? Please print this item to the console.
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
-
-
+var fullName = firstName + lastName;
+console.log(fullName);
+var whereFrom = fullName + "Is from " + birthPlace;
+console.log(whereFrom);
+var mariahStory = "At the age of " + mariahCareyAge + " " + "Mariah Carey, wearing her fancy " + favSneaker + " " + "sang " + favLoveSong + " at the " + coffeeShop;
+console.log(mariahStory);
 /**
 * #9 Arithmetic
 * Variables with the outcome of an arithmetic operation.
@@ -106,8 +195,19 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
+*/
 
-
+var num1 = 1;
+var num2 = 2;
+var sum = num1 + num2;
+console.log(sum);
+var difference = num2 - num1;
+console.log(difference);
+var product = num1 * num2;
+console.log(product);
+var quotient = num1 / num2;
+console.log(quotient);
+console.log(num1 % num2);
 
 /**
 * #10
@@ -129,8 +229,28 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?
-
-
+*/
+var isStrictlyEqual = "Tacocat" === "tacocat";
+console.log(isStrictlyEqual);
+var isLooselyEqual = "Tacocat" == "tacocat";
+console.log(isLooselyEqual);
+console.log(isStrictlyEqual, isLooselyEqual);
+//Because they are both case sensitive.
+var sameNum = "5" === 5;
+console.log(sameNum);
+var sameNumba = "5" == 5;
+console.log(sameNumba);
+//They are two different data types.
+console.log(3>2 || 3<1);
+console.log(3>2 && 6>3);
+console.log(7>2 && 8<5);
+var comparisonOne = 3>2 || 3<1;
+console.log(comparisonOne);
+var comparisonTwo = 3>2 && 6>3;
+console.log(comparisonTwo);
+var comparisonThree = 7>2 && 8<5;
+console.log(comparisonThree);
+//The first comparison has one true value, therefore the OR logic is true. The second comparison is true since both statements are true. The third AND statement is false because one logic statement is false.
 
 /**
 * #11
@@ -144,6 +264,20 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 *
+*/
+
+var myBox = 1;
+console.log(myBox);
+var myBox = "I'm a box";
+console.log(myBox);
+var myBox = null;
+console.log(myBox);
+var myBox = undefined;
+console.log(myBox);
+var myBox = true;
+console.log(myBox);
+
+
 
 /**
 * Final Boss 
@@ -170,3 +304,20 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function bakePie(ingredient) {
+	return "Today's special " + ingredient + " pie.";
+}
+var pieResult = bakePie("blueberry");
+console.log(pieResult);
+
+function jump(height) {
+	return "You jumped" + " " + height + " feet high!";
+}
+var jumpResult = jump(9);
+console.log(jumpResult);
+
+function cook(ingredient1, ingredient2, recipeName) {
+	return ingredient1 + " and" + ingredient2 + " make a" + " " + recipeName;
+}
+var makePizza = cook('Tomatoes', 'Cheese', 'Pizza');
+console.log(makePizza);
